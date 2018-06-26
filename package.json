@@ -1,0 +1,21 @@
+{
+  "name": "sky-watch-js",
+  "version": "1.0.9",
+  "description": "remote debug tool",
+  "main": "index.js",
+  "bin": {
+    "sky-watch": "sky-watch.js"
+  },
+  "scripts": {},
+  "dependencies": {
+    "ws": "^5.2.1",
+    "express": "^4.16.3"
+  },
+  "keywords": [
+    "mobile",
+    "remote",
+    "debug"
+  ],
+  "author": "Unreal",
+  "license": "MIT"
+}
