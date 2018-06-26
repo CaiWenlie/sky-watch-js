@@ -61,12 +61,12 @@ function flatArguments(args) {
   var len = args.length
   for (var i = 0; i < len; i++) {
     var value = args[i]
-    // prevent undefined
-    if(value === undefined) {
+   // prevent undefined and null
+    if(value === undefined || value === null) {
       value = ''
     }
     // transform arguments
-    else if (value.constructor === arguments.constructor) {
+    else if (value.toString() == "[object Arguments]") {
       value = flatArguments(value)
     }
     // transform object

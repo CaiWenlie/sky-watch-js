@@ -1,6 +1,6 @@
 {
   "name": "sky-watch-js",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "remote debug tool",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,10 @@
   "dependencies": {
     "ws": "^5.2.1",
     "express": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CaiWenlie/sky-watch-js.git"
   },
   "keywords": [
     "mobile",
